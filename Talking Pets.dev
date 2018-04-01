@@ -1,0 +1,62 @@
+[Project]
+FileName=Talking Pets.dev
+Name=Talking Pets
+Type=1
+Ver=2
+ObjFiles=
+Includes="C:\Users\paawa_000\Desktop\PaawanProject\Integrated Project 2\Talking Pets\SFML-2.0\include";"C:\Users\paawa_000\Desktop\PaawanProject\Integrated Project 2\Talking Pets\allegro 4\include"
+Libs="C:\Users\paawa_000\Desktop\PaawanProject\Integrated Project 2\Talking Pets\SFML-2.0\lib";"C:\Users\paawa_000\Desktop\PaawanProject\Integrated Project 2\Talking Pets\allegro 4\lib"
+PrivateResource=Talking_Pets_private.rc
+ResourceIncludes=
+MakeIncludes=
+Compiler=
+CppCompiler=-static-libgcc _@@_-DSFML_STATIC_@@_ -lsfml-graphics_@@_ -lsfml-window_@@_ -lsfml-system_@@_
+Linker=SFML-2.0/lib/libsfml-audio-s.a_@@_SFML-2.0/lib/libsfml-graphics-s.a_@@_SFML-2.0/lib/libsfml-main.a_@@_SFML-2.0/lib/libsfml-network-s.a_@@_SFML-2.0/lib/libsfml-window-s.a_@@_SFML-2.0/lib/libsfml-system-s.a_@@_"allegro 4/lib/libaldat.a"_@@_"allegro 4/lib/liballd.a"_@@_"allegro 4/lib/liballd_s.a"_@@_"allegro 4/lib/liballeg.a"_@@_"allegro 4/lib/liballeg_s.a"_@@_"allegro 4/lib/liballp.a"_@@_"allegro 4/lib/liballp_s.a"_@@_
+IsCpp=1
+Icon=Talking Pets.ico
+ExeOutput=
+ObjectOutput=
+LogOutput=
+LogOutputEnabled=0
+OverrideOutput=0
+OverrideOutputName=Talking Pets.exe
+HostApplication=
+UseCustomMakefile=0
+CustomMakefile=SFML-2.4.2\cmake\Modules\FindSFML.cmake
+CommandLine=
+Folders=
+IncludeVersionInfo=1
+SupportXPThemes=0
+CompilerSet=3
+CompilerSettings=0000000100000000001010000
+UnitCount=1
+
+[VersionInfo]
+Major=1
+Minor=0
+Release=0
+Build=0
+LanguageID=16393
+CharsetID=1252
+CompanyName=Paawan
+FileVersion=1.0.0.0
+FileDescription=Talking Pets By Paawan and Team
+InternalName=Paawan
+LegalCopyright=Paawan
+LegalTrademarks=Paawan
+OriginalFilename=Paawan
+ProductName=Talking Pets By Paawan and Team
+ProductVersion=1.0.0.0
+AutoIncBuildNr=0
+SyncProduct=1
+
+[Unit1]
+FileName=Main.cpp
+CompileCpp=1
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
